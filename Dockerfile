@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --fix-missing \
     git python python-dev wget build-essential autoconf flex bison gperf \
     python3 python3-pip
 
